@@ -85,8 +85,8 @@ graph TD
 graph LR
     A{{🗺️ 로드맵·챕터<br/>선택}} -->|학습 시작| B{{💬 버디와<br/>Socratic 대화}}
     B -->|세션 종료| C{{📝 8섹션<br/>구조 노트}}
-    C -->|vault 축적| D{{🗄️ 노트 보관함<br/>+ 위키링크}}
-    D -.->|다음 세션 컨텍스트로 합류| E{{🌀 depth+1 로<br/>같은 챕터 되감기}}
+    C -->|vault 축적| D{{🗄️ 노트 보관함}}
+    D -.->|다음 세션 컨텍스트로 합류| E{{🌀 같은 챕터<br/>depth +1}}
     E -.->|더 깊이| A
 
     style A fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
