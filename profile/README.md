@@ -20,8 +20,7 @@
 딥다이브 레포를 **읽기만 하는 자료**에서  
 **버디(AI)와 나선형으로 파고드는 학습 세션**으로 바꾸는 데스크톱 앱 패밀리입니다.
 
-로드맵 따라 학습 → 버디와 Socratic 대화(`depth 1 → 2 → 3`) → **8섹션 구조 노트**로 자동 축적 →  
-다음 세션에 이전 노트가 컨텍스트로 합류. **같은 개념을 나선형으로 되감을수록 깊어집니다.**
+로드맵 → 버디와 Socratic 대화 → **8섹션 노트로 자동 축적** → 다음 세션에 컨텍스트로 합류. 되감을수록 깊어집니다.
 
 </div>
 
@@ -29,7 +28,7 @@
 
 ## 🌈 세 가지 버디 — Red · Green · Blue
 
-각 버디는 하나의 **콘텐츠 연구소**를 학습 세션으로 바꾸는 데스크톱 앱입니다. 셋 다 같은 나선 엔진을 공유하지만, 다루는 영역과 그에 맞춘 특화 기능이 다릅니다.
+각 버디는 하나의 **콘텐츠 연구소**를 학습 세션으로 바꾸는 데스크톱 앱입니다.
 
 | | 버디 | 무엇을 배우나 | 콘텐츠 소스 | 모토 | 규모 |
 |:--:|:--|:--|:--|:--|:--|
@@ -47,7 +46,7 @@
 
 ```mermaid
 graph TD
-    subgraph CONTENT["📚 콘텐츠 — The IQ Knowledge Triad"]
+    subgraph CONTENT["📚 콘텐츠 — 세 연구소"]
         AILAB["📐 <b>IQ AI Lab</b><br/>Episteme · 증명지<br/><i>왜 참인가?</i>"]
         DEVLAB["🔧 <b>IQ Dev Lab</b><br/>Techne · 기예지<br/><i>어떻게 동작하는가?</i>"]
         PHRLAB["🧭 <b>IQ Phronesis Lab</b><br/>Phronesis · 실천지<br/><i>그래서 무엇을 하는가?</i>"]
@@ -114,7 +113,7 @@ graph LR
 ## ⚙️ 공통 엔진 — 세 버디가 공유하는 것
 
 <details>
-<summary>&nbsp;⚙️ &nbsp;<b>Spiral Engine</b> — 모든 버디에 들어있는 기능 &nbsp;<i>(펼치기)</i></summary>
+<summary>&nbsp;⚙️ &nbsp;<b>Spiral Engine</b> — 모든 버디에 들어있는 기능</summary>
 
 <br/>
 
@@ -206,7 +205,7 @@ graph LR
 
 <div align="center">
 
-세 버디가 길어 올리는 콘텐츠는 모두 **IQ Knowledge Triad** 연구소에서 옵니다.
+세 버디의 콘텐츠는 각각 다음 연구소에서 옵니다.
 
 <br/>
 
