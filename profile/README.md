@@ -33,11 +33,11 @@
 
 | | 버디 | 무엇을 배우나 | 콘텐츠 소스 | 모토 | 규모 |
 |:--:|:--|:--|:--|:--|:--|
-| 🔴 | [**Spiral Buddy Red**](https://github.com/iq-spiral-galaxy/spiral-buddy-red) | **AI · 수학** — 선형대수에서 attention까지, 증명을 따라가는 훈련 | [**IQ AI Lab**](https://github.com/iq-ai-lab) | *Prove, don't memorize* | `Layer 0→6` · **48 repos** |
+| 🔴 | [**Spiral Buddy Red**](https://github.com/iq-spiral-galaxy/spiral-buddy-red) | **수학 · ML · DL · RL · LLM · CV** — 선형대수부터 Transformer·Diffusion까지 증명으로 따라가는 AI | [**IQ AI Lab**](https://github.com/iq-ai-lab) | *Prove, don't memorize* | `7 layers` · **48 repos** |
 | 🟢 | [**Spiral Buddy Green**](https://github.com/iq-spiral-galaxy/spiral-buddy-green) | **실천적 지혜** — 돈·사람·제도·역사를 판단 규칙으로 증류 | [**IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) | *Distill, don't collect* | `6 layers` · **31 repos** |
-| 🔵 | [**Spiral Buddy Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue) | **개발** — Foundations부터 Synthesis까지 풀스택 딥다이브 | [**IQ Dev Lab**](https://github.com/iq-dev-lab) | *Beyond the docs* | `9 domains` · **86 repos** |
+| 🔵 | [**Spiral Buddy Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue) | **Frontend · Backend · Android · iOS** — CS 기초·언어부터 인프라·DB까지 풀스택 딥다이브 | [**IQ Dev Lab**](https://github.com/iq-dev-lab) | *Beyond the docs* | `9 domains` · **86 repos** |
 
-> 🎨 **RGB가 합쳐 백색광이 되듯** — 세 버디는 같은 엔진을 공유합니다. 🔵 Blue에서 부트스트랩되어 🔴 Red · 🟢 Green이 검증된 인프라(자동 업데이트 · 세션 영속화 · 8섹션 노트 파이프라인)를 그대로 상속합니다. appId · 설치 경로 · 포트 · 노트 폴더가 모두 분리되어 **한 머신에 셋이 공존**할 수 있습니다.
+> 🎨 **RGB가 합쳐 백색광이 되듯**, 세 버디는 같은 나선 엔진을 공유하며 한 머신에 함께 깔 수 있습니다.
 
 ---
 
@@ -59,7 +59,7 @@ graph TD
         BLUE["🔵 <b>Spiral Buddy Blue</b>"]
     end
 
-    ENGINE["⚙️ <b>Spiral Engine</b> &nbsp;—&nbsp; 나선 세션 · 8섹션 노트 · Look-up · 활동 추적 · 자동 업데이트 · MCP"]
+    ENGINE["⚙️ <b>Spiral Engine</b>"]
 
     AILAB --> RED
     DEVLAB --> BLUE
@@ -129,8 +129,7 @@ graph LR
 | 📊 **학습 추적** | 1년치 활동 캘린더(5단계 강도) · Streak(연속 학습일) · 챕터별 진도 |
 | 🛡️ **안정성** | `.trash/` 안전 삭제(30일 후 청소) · GitHub Releases 폴링 + 원클릭 자동 업데이트 · API `overloaded_error` backoff 자동 재시도 |
 | 🧩 **MCP (옵션)** | 같은 vault를 공유하는 9개 도구로 Claude Desktop에서도 로드맵·노트·검색 사용 |
-
-🖥️ **macOS · Windows · Linux** 지원 · 🌗 라이트/다크 모드 · ⚡ 30초 한 줄 설치
+| 🖥️ **플랫폼** | macOS · Windows · Linux · 🌗 라이트/다크 모드 · ⚡ 30초 한 줄 설치 |
 
 </details>
 
