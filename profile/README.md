@@ -168,7 +168,7 @@ graph LR
 </details>
 
 <details>
-<summary>&nbsp;🔵 &nbsp;<b>Blue</b> — 풀스택을 한 vault에 &nbsp;<i>(개발)</i></summary>
+<summary>&nbsp;🔵 &nbsp;<b>Blue</b> — 풀스택 딥다이브 전 영역 &nbsp;<i>(개발)</i></summary>
 
 <br/>
 
@@ -203,7 +203,7 @@ graph LR
 
 ---
 
-## 🔗 About — The IQ Universe
+## 🔗 About — IQ Spiral Galaxy
 
 <div align="center">
 
@@ -212,14 +212,6 @@ graph LR
 <br/>
 
 [📐 **IQ AI Lab**](https://github.com/iq-ai-lab) — *Episteme* &nbsp;·&nbsp; [🔧 **IQ Dev Lab**](https://github.com/iq-dev-lab) — *Techne* &nbsp;·&nbsp; [🧭 **IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) — *Phronesis*
-
-<br/>
-
-정제된 결과물은 블로그로도 발행됩니다 — [iq-proof](https://iq-proof.github.io) · [iq-blog](https://iq-universe.github.io/iq-blog/) · [iq-phronesis-lab](https://iq-phronesis-lab.github.io)
-
-<br/>
-
-**165개 딥다이브 레포**(48 + 31 + 86)를, 읽는 자료가 아니라 **나선형으로 파고드는 학습**으로.
 
 <br/>
 
