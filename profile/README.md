@@ -20,8 +20,6 @@
 딥다이브 레포를 **읽기만 하는 자료**에서  
 **버디(AI)와 나선형으로 파고드는 학습 세션**으로 바꾸는 데스크톱 앱 패밀리입니다.
 
-로드맵 → 버디와 Socratic 대화 → **8섹션 노트로 자동 축적** → 다음 세션에 컨텍스트로 합류. 되감을수록 깊어집니다.
-
 </div>
 
 ---
@@ -32,11 +30,9 @@
 
 | | 버디 | 무엇을 배우나 | 콘텐츠 소스 | 모토 | 규모 |
 |:--:|:--|:--|:--|:--|:--|
-| 🔴 | [**Spiral Buddy Red**](https://github.com/iq-spiral-galaxy/spiral-buddy-red) | **수학 · ML · DL · RL · LLM · CV** — 선형대수부터 Transformer·Diffusion까지 증명으로 따라가는 AI | [**IQ AI Lab**](https://github.com/iq-ai-lab) | *Prove, don't memorize* | `7 layers` · **48 repos** |
-| 🟢 | [**Spiral Buddy Green**](https://github.com/iq-spiral-galaxy/spiral-buddy-green) | **실천적 지혜** — 돈·사람·제도·역사를 판단 규칙으로 증류 | [**IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) | *Distill, don't collect* | `6 layers` · **31 repos** |
-| 🔵 | [**Spiral Buddy Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue) | **Frontend · Backend · Android · iOS** — CS 기초·언어부터 인프라·DB까지 풀스택 딥다이브 | [**IQ Dev Lab**](https://github.com/iq-dev-lab) | *Beyond the docs* | `9 domains` · **86 repos** |
-
-> 🎨 **RGB가 합쳐 백색광이 되듯**, 세 버디는 같은 나선 엔진을 공유하며 한 머신에 함께 깔 수 있습니다.
+| 🔴 | [**Spiral Buddy Red**](https://github.com/iq-spiral-galaxy/spiral-buddy-red) | 수학 · ML · DL · RL · LLM · CV | [**IQ AI Lab**](https://github.com/iq-ai-lab) | *Prove, don't memorize* | `7 layers` · **48 repos** |
+| 🟢 | [**Spiral Buddy Green**](https://github.com/iq-spiral-galaxy/spiral-buddy-green) | 돈 · 사람 · 제도 · 역사를 판단 규칙으로 증류 | [**IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) | *Distill, don't collect* | `6 layers` · **31 repos** |
+| 🔵 | [**Spiral Buddy Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue) | Frontend · Backend · Android · iOS · DB · 인프라 | [**IQ Dev Lab**](https://github.com/iq-dev-lab) | *Beyond the docs* | `9 domains` · **86 repos** |
 
 ---
 
@@ -190,8 +186,6 @@ graph LR
 | 🔵 [**Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue#-30초-설치-한-줄-명령) | [latest release](https://github.com/iq-spiral-galaxy/spiral-buddy-blue/releases/latest) | macOS(arm64/Intel) · Windows · Linux |
 
 첫 실행 시 **Setup Wizard**가 ① Anthropic API Key(`sk-ant-...`) ② 노트 보관함 폴더 ③ *(선택)* 프리셋으로 콘텐츠 한 번에 받기를 안내합니다. 노트·설정은 vault와 앱 지원 폴더에 저장되어 **재설치해도 보존**됩니다.
-
-> 💡 세 버디는 노트 폴더·설정·포트가 분리되어 있어, 원하는 만큼 **동시에 설치해 함께 사용**할 수 있습니다.
 
 ---
 
