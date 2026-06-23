@@ -5,13 +5,15 @@
 
 <div align="center">
 
-**AI 버디와 함께하는 나선형 학습 — 세 가지 색**
+**AI 버디와 함께하는 나선형 학습 — 다섯 빛깔의 버디**
 
 <br/>
 
 [![Spiral Buddy Red](https://img.shields.io/badge/🔴_Red-AI_&_Math-e23b3b?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-red)
 [![Spiral Buddy Green](https://img.shields.io/badge/🟢_Green-Phronesis-2e9d52?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-green)
 [![Spiral Buddy Blue](https://img.shields.io/badge/🔵_Blue-Dev-2f7fe2?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-blue)
+[![Spiral Buddy Black](https://img.shields.io/badge/⚫_Black-Physis-181818?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-black)
+[![Spiral Buddy White](https://img.shields.io/badge/⚪_White-Psyche-e5e7eb?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-white)
 
 <br/>
 
@@ -24,7 +26,7 @@
 
 ---
 
-## 🌈 세 가지 버디 — Red · Green · Blue
+## 🌈 다섯 버디 — Red · Green · Blue · Black · White
 
 각 버디는 하나의 **콘텐츠 연구소**를 학습 세션으로 바꾸는 데스크톱 앱입니다.
 
@@ -33,6 +35,8 @@
 | 🔴 | [**Spiral Buddy Red**](https://github.com/iq-spiral-galaxy/spiral-buddy-red) | 수학 · ML · DL · RL · LLM · CV | [**IQ AI Lab**](https://github.com/iq-ai-lab) | *Prove, don't memorize* | `7 layers` · **48 repos** |
 | 🟢 | [**Spiral Buddy Green**](https://github.com/iq-spiral-galaxy/spiral-buddy-green) | 돈 · 사람 · 제도 · 역사를 판단 규칙으로 증류 | [**IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) | *Distill, don't collect* | `6 layers` · **31 repos** |
 | 🔵 | [**Spiral Buddy Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue) | Frontend · Backend · Android · iOS · DB · 인프라 | [**IQ Dev Lab**](https://github.com/iq-dev-lab) | *Beyond the docs* | `9 domains` · **86 repos** |
+| ⚫ | [**Spiral Buddy Black**](https://github.com/iq-spiral-galaxy/spiral-buddy-black) | 고전 · 양자 · 상대성 · 우주론 · 양자중력 | [**IQ Physis Lab**](https://github.com/iq-physis-lab) | *Derive, don't accept* | `7 layers` · **36 repos** |
+| ⚪ | [**Spiral Buddy White**](https://github.com/iq-spiral-galaxy/spiral-buddy-white) | 뇌 · 인지 · 의식 · 자아 | [**IQ Psyche Lab**](https://github.com/iq-psyche-lab) | *Explain it, don't explain it away* | `7 layers` · **31 repos** |
 
 ---
 
@@ -42,16 +46,20 @@
 
 ```mermaid
 graph TD
-    subgraph CONTENT["📚 콘텐츠 — 세 연구소"]
-        AILAB["📐 <b>IQ AI Lab</b><br/>Episteme · 증명지<br/><i>왜 참인가?</i>"]
-        DEVLAB["🔧 <b>IQ Dev Lab</b><br/>Techne · 기예지<br/><i>어떻게 동작하는가?</i>"]
-        PHRLAB["🧭 <b>IQ Phronesis Lab</b><br/>Phronesis · 실천지<br/><i>그래서 무엇을 하는가?</i>"]
+    subgraph CONTENT["📚 콘텐츠 — 다섯 연구소"]
+        AILAB["📐 <b>IQ AI Lab</b><br/>Episteme · 증명지"]
+        DEVLAB["🔧 <b>IQ Dev Lab</b><br/>Techne · 기예지"]
+        PHRLAB["🧭 <b>IQ Phronesis Lab</b><br/>Phronesis · 실천지"]
+        PHYLAB["🌌 <b>IQ Physis Lab</b><br/>Sophia · 이론지"]
+        PSYLAB["🧠 <b>IQ Psyche Lab</b><br/>Psyche · 마음"]
     end
 
     subgraph APPS["🌀 앱 — IQ Spiral Galaxy"]
         RED["🔴 <b>Spiral Buddy Red</b>"]
         GREEN["🟢 <b>Spiral Buddy Green</b>"]
         BLUE["🔵 <b>Spiral Buddy Blue</b>"]
+        BLACK["⚫ <b>Spiral Buddy Black</b>"]
+        WHITE["⚪ <b>Spiral Buddy White</b>"]
     end
 
     ENGINE["⚙️ <b>Spiral Engine</b>"]
@@ -59,21 +67,29 @@ graph TD
     AILAB --> RED
     DEVLAB --> BLUE
     PHRLAB --> GREEN
+    PHYLAB --> BLACK
+    PSYLAB --> WHITE
 
     RED --> ENGINE
     GREEN --> ENGINE
     BLUE --> ENGINE
+    BLACK --> ENGINE
+    WHITE --> ENGINE
 
     style AILAB fill:#fce4ec,stroke:#c2185b,stroke-width:2px
     style DEVLAB fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
     style PHRLAB fill:#fff8e1,stroke:#f9a825,stroke-width:2px
+    style PHYLAB fill:#e8eaf6,stroke:#6366f1,stroke-width:2px
+    style PSYLAB fill:#fce4ec,stroke:#ec4899,stroke-width:2px
     style RED fill:#ffebee,stroke:#e23b3b,stroke-width:2px
     style GREEN fill:#e8f5e9,stroke:#2e9d52,stroke-width:2px
     style BLUE fill:#e3f2fd,stroke:#2f7fe2,stroke-width:2px
+    style BLACK fill:#e0e0e0,stroke:#181818,stroke-width:2px
+    style WHITE fill:#ffffff,stroke:#9e9e9e,stroke-width:2px
     style ENGINE fill:#f3e5f5,stroke:#a855f7,stroke-width:2px
 ```
 
-> 세 연구소는 아리스토텔레스의 **앎의 세 형태**(Episteme · Techne · Phronesis)를 각각 맡습니다. Spiral Galaxy는 그 셋을 **같은 학습 경험**으로 손에 쥐여주는 전달 계층입니다.
+> 다섯 연구소는 아리스토텔레스가 나눈 **앎의 다섯 형태**(Episteme · Techne · Phronesis · Sophia, 그리고 그 모두가 깃드는 Psyche)를 각각 맡습니다. Spiral Galaxy는 그 다섯을 **같은 학습 경험**으로 손에 쥐여주는 전달 계층입니다.
 
 ---
 
@@ -106,7 +122,7 @@ graph LR
 
 ---
 
-## ⚙️ 공통 엔진 — 세 버디가 공유하는 것
+## ⚙️ 공통 엔진 — 다섯 버디가 공유하는 것
 
 <details>
 <summary>&nbsp;⚙️ &nbsp;<b>Spiral Engine</b> — 모든 버디에 들어있는 기능</summary>
@@ -173,6 +189,30 @@ graph LR
 
 </details>
 
+<details>
+<summary>&nbsp;⚫ &nbsp;<b>Black</b> — 제1원리에서 우주까지 &nbsp;<i>(물리)</i></summary>
+
+<br/>
+
+- ⚙️ **유도 중심 Socratic** — *"유도할 수 없다면 이해한 게 아니다"*: 공식을 외우지 않고 제1원리에서 직접 유도
+- 📐 **Principle → Boundary → Emergence 노트** — *왜 이렇게 작동하나 → 언제 무너지나 → 위 레이어에서 무엇이 창발하나*
+- 🧬 **횡단 원리 회수** — 대칭성·최소작용·엔트로피·정보·창발이 고전·통계·양자·우주에서 반복되는 것을 추적
+- 🌌 **7-레이어 스택** — Language of Physics(L0)부터 양자중력 최전선(L5)·Synthesis(L6)까지 바닥부터
+
+</details>
+
+<details>
+<summary>&nbsp;⚪ &nbsp;<b>White</b> — 물질에서 마음까지 &nbsp;<i>(마음·의식)</i></summary>
+
+<br/>
+
+- ⚙️ **3인칭 메커니즘 Socratic** — "뇌가 한다"가 아니라 *어떤 신경·인지·계산이 그것을 만드나*를 분해
+- 🌉 **Principle → Boundary → Experience 노트** — *메커니즘 → 설명적 간극 → 1인칭 경험*. 환원이 닿지 못하는 곳을 지우지 않고 표시
+- 🧬 **횡단 원리 회수** — 표상·예측·통합·자기참조·창발이 신경·인지·의식·자아에서 반복되는 것을 추적
+- 🧠 **7-레이어 스택** — Language of Mind(L0)·뉴런(L1)부터 의식(L4)·자아(L5)·Synthesis(L6)까지
+
+</details>
+
 ---
 
 ## ⚡ 설치 — 30초, 한 줄
@@ -184,6 +224,8 @@ graph LR
 | 🔴 [**Red**](https://github.com/iq-spiral-galaxy/spiral-buddy-red#-30초-설치-한-줄-명령) | [latest release](https://github.com/iq-spiral-galaxy/spiral-buddy-red/releases/latest) | macOS(arm64/Intel) · Windows · Linux |
 | 🟢 [**Green**](https://github.com/iq-spiral-galaxy/spiral-buddy-green#-30초-설치-한-줄-명령) | [latest release](https://github.com/iq-spiral-galaxy/spiral-buddy-green/releases/latest) | macOS(arm64/Intel) · Windows · Linux |
 | 🔵 [**Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue#-30초-설치-한-줄-명령) | [latest release](https://github.com/iq-spiral-galaxy/spiral-buddy-blue/releases/latest) | macOS(arm64/Intel) · Windows · Linux |
+| ⚫ [**Black**](https://github.com/iq-spiral-galaxy/spiral-buddy-black#-30초-설치-한-줄-명령) | [latest release](https://github.com/iq-spiral-galaxy/spiral-buddy-black/releases/latest) | macOS(arm64/Intel) · Windows · Linux |
+| ⚪ [**White**](https://github.com/iq-spiral-galaxy/spiral-buddy-white#-30초-설치-한-줄-명령) | [latest release](https://github.com/iq-spiral-galaxy/spiral-buddy-white/releases/latest) | macOS(arm64/Intel) · Windows · Linux |
 
 첫 실행 시 **Setup Wizard**가 ① Anthropic API Key(`sk-ant-...`) ② 노트 보관함 폴더 ③ *(선택)* 프리셋으로 콘텐츠 한 번에 받기를 안내합니다. 노트·설정은 vault와 앱 지원 폴더에 저장되어 **재설치해도 보존**됩니다.
 
@@ -199,11 +241,11 @@ graph LR
 
 <div align="center">
 
-세 버디의 콘텐츠는 각각 다음 연구소에서 옵니다.
+다섯 버디의 콘텐츠는 각각 다음 연구소에서 옵니다.
 
 <br/>
 
-[📐 **IQ AI Lab**](https://github.com/iq-ai-lab) — *Episteme* &nbsp;·&nbsp; [🔧 **IQ Dev Lab**](https://github.com/iq-dev-lab) — *Techne* &nbsp;·&nbsp; [🧭 **IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) — *Phronesis*
+[📐 **IQ AI Lab**](https://github.com/iq-ai-lab) — *Episteme* &nbsp;·&nbsp; [🔧 **IQ Dev Lab**](https://github.com/iq-dev-lab) — *Techne* &nbsp;·&nbsp; [🧭 **IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) — *Phronesis* &nbsp;·&nbsp; [🌌 **IQ Physis Lab**](https://github.com/iq-physis-lab) — *Sophia* &nbsp;·&nbsp; [🧠 **IQ Psyche Lab**](https://github.com/iq-psyche-lab) — *Psyche*
 
 <br/>
 
