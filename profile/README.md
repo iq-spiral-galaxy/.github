@@ -9,11 +9,11 @@
 
 <br/>
 
-[![Spiral Buddy Red](https://img.shields.io/badge/🔴_Red-AI_&_Math-e23b3b?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-red)
-[![Spiral Buddy Green](https://img.shields.io/badge/🟢_Green-Phronesis-2e9d52?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-green)
-[![Spiral Buddy Blue](https://img.shields.io/badge/🔵_Blue-Dev-2f7fe2?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-blue)
-[![Spiral Buddy Black](https://img.shields.io/badge/⚫_Black-Physis-181818?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-black)
-[![Spiral Buddy White](https://img.shields.io/badge/⚪_White-Psyche-e5e7eb?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-white)
+[![Spiral Red](https://img.shields.io/badge/🔴_Red-AI_&_Math-e23b3b?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-red)
+[![Spiral Green](https://img.shields.io/badge/🟢_Green-Phronesis-2e9d52?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-green)
+[![Spiral Blue](https://img.shields.io/badge/🔵_Blue-Dev-2f7fe2?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-blue)
+[![Spiral Black](https://img.shields.io/badge/⚫_Black-Physis-181818?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-black)
+[![Spiral White](https://img.shields.io/badge/⚪_White-Psyche-e5e7eb?style=for-the-badge)](https://github.com/iq-spiral-galaxy/spiral-buddy-white)
 
 <br/>
 
@@ -32,17 +32,17 @@
 
 | | 버디 | 무엇을 배우나 | 콘텐츠 소스 | 모토 | 규모 |
 |:--:|:--|:--|:--|:--|:--|
-| 🔴 | [**Spiral Buddy Red**](https://github.com/iq-spiral-galaxy/spiral-buddy-red) | 수학 · ML · DL · RL · LLM · CV | [**IQ AI Lab**](https://github.com/iq-ai-lab) | *Prove, don't memorize* | `7 layers` · **48 repos** |
-| 🟢 | [**Spiral Buddy Green**](https://github.com/iq-spiral-galaxy/spiral-buddy-green) | 돈 · 사람 · 제도 · 역사를 판단 규칙으로 증류 | [**IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) | *Distill, don't collect* | `6 layers` · **31 repos** |
-| 🔵 | [**Spiral Buddy Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue) | Frontend · Backend · Android · iOS · DB · 인프라 | [**IQ Dev Lab**](https://github.com/iq-dev-lab) | *Beyond the docs* | `9 domains` · **86 repos** |
-| ⚫ | [**Spiral Buddy Black**](https://github.com/iq-spiral-galaxy/spiral-buddy-black) | 고전 · 양자 · 상대성 · 우주론 · 양자중력 | [**IQ Physis Lab**](https://github.com/iq-physis-lab) | *Derive, don't accept* | `7 layers` · **36 repos** |
-| ⚪ | [**Spiral Buddy White**](https://github.com/iq-spiral-galaxy/spiral-buddy-white) | 뇌 · 인지 · 의식 · 자아 | [**IQ Psyche Lab**](https://github.com/iq-psyche-lab) | *Explain it, don't explain it away* | `7 layers` · **31 repos** |
+| 🔴 | [**Spiral Red**](https://github.com/iq-spiral-galaxy/spiral-buddy-red) | 수학 · ML · DL · RL · LLM · CV | [**IQ AI Lab**](https://github.com/iq-ai-lab) | *Prove, don't memorize* | `7 layers` · **48 repos** |
+| 🟢 | [**Spiral Green**](https://github.com/iq-spiral-galaxy/spiral-buddy-green) | 돈 · 사람 · 제도 · 역사를 판단 규칙으로 증류 | [**IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) | *Distill, don't collect* | `6 layers` · **31 repos** |
+| 🔵 | [**Spiral Blue**](https://github.com/iq-spiral-galaxy/spiral-buddy-blue) | Frontend · Backend · Android · iOS · DB · 인프라 | [**IQ Dev Lab**](https://github.com/iq-dev-lab) | *Beyond the docs* | `9 domains` · **86 repos** |
+| ⚫ | [**Spiral Black**](https://github.com/iq-spiral-galaxy/spiral-buddy-black) | 고전 · 양자 · 상대성 · 우주론 · 양자중력 | [**IQ Physis Lab**](https://github.com/iq-physis-lab) | *Derive, don't accept* | `7 layers` · **36 repos** |
+| ⚪ | [**Spiral White**](https://github.com/iq-spiral-galaxy/spiral-buddy-white) | 뇌 · 인지 · 의식 · 자아 | [**IQ Psyche Lab**](https://github.com/iq-psyche-lab) | *Explain it, don't explain it away* | `7 layers` · **31 repos** |
 
 ---
 
-## 🗺️ Architecture — 콘텐츠는 셋, 엔진은 하나
+## 🗺️ Architecture — 콘텐츠는 다섯, 엔진은 하나
 
-연구소(콘텐츠)와 앱(엔진)을 분리한 구조입니다. 위층의 세 연구소가 *무엇을* 가르칠지를 정하고, 아래층의 단일 나선 엔진이 *어떻게* 가르칠지를 책임집니다.
+연구소(콘텐츠)와 앱(엔진)을 분리한 구조입니다. 위층의 다섯 연구소가 *무엇을* 가르칠지를 정하고, 아래층의 단일 나선 엔진이 *어떻게* 가르칠지를 책임집니다.
 
 ```mermaid
 graph TD
@@ -55,11 +55,11 @@ graph TD
     end
 
     subgraph APPS["🌀 앱 — IQ Spiral Galaxy"]
-        RED["🔴 <b>Spiral Buddy Red</b>"]
-        GREEN["🟢 <b>Spiral Buddy Green</b>"]
-        BLUE["🔵 <b>Spiral Buddy Blue</b>"]
-        BLACK["⚫ <b>Spiral Buddy Black</b>"]
-        WHITE["⚪ <b>Spiral Buddy White</b>"]
+        RED["🔴 <b>Spiral Red</b>"]
+        GREEN["🟢 <b>Spiral Green</b>"]
+        BLUE["🔵 <b>Spiral Blue</b>"]
+        BLACK["⚫ <b>Spiral Black</b>"]
+        WHITE["⚪ <b>Spiral White</b>"]
     end
 
     ENGINE["⚙️ <b>Spiral Engine</b>"]
